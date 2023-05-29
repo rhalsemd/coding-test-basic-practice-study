@@ -8,3 +8,7 @@
 - 20230526
 1. 백준 - 수 정렬하기4 11931
     https://www.acmicpc.net/problem/11931
+
+- 20230529
+1. 백준 - 최소공배수 13241
+    https://www.acmicpc.net/problem/13241
