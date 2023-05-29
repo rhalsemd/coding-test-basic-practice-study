@@ -12,3 +12,7 @@
 - 20230529
 1. 백준 - 최소공배수 13241
     https://www.acmicpc.net/problem/13241
+
+- 20230530
+1. 백준 - 누울 자리를 찾아라 1652
+    https://www.acmicpc.net/problem/1652
