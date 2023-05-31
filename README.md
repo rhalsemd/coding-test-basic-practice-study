@@ -16,3 +16,7 @@
 - 20230530
 1. 백준 - 누울 자리를 찾아라 1652
     https://www.acmicpc.net/problem/1652
+
+- 20230601
+1. 백준 - 폴리오미노 1343
+    https://www.acmicpc.net/problem/1343
