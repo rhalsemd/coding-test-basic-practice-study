@@ -20,3 +20,7 @@
 - 20230531
 1. 백준 - 생일 5635
     https://www.acmicpc.net/problem/5635
+    
+- 20230601
+1. 백준 - 폴리오미노 1343
+    https://www.acmicpc.net/problem/1343
