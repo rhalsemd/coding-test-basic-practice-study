@@ -4,11 +4,9 @@ import java.util.*;
 public class find_a_place_to_lie_down_1652 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine());
+        int n = Integer.parseInt(br.readLine());
 
-        int n = Integer.parseInt(st.nextToken());
-
-        if (n == 1){
+        if (n == 1) {
             System.out.println(0 + " " + 0);
             return;
         }
@@ -16,47 +14,45 @@ public class find_a_place_to_lie_down_1652 {
         char[][] newArray = new char[n][n];
 
         for (int i = 0; i < n; i++) {
-            String row = br.readLine();
-            newArray[i] = row.toCharArray();
+            newArray[i] = br.readLine().toCharArray();
         }
 
-//       가로로 카운트 2이상이면 가로 갯수 +1
-        int r_cnt = 0;
-        for (int j = 0; j < n; j++) {
-            int cnt = 0;
-            for (int k = 0; k < n; k++) {
-                if (newArray[j][k] == '.') {
-                    cnt++;
-                } else {
-                    if (cnt >= 2) {
-                        r_cnt++;
-                    }
-                    cnt = 0;
-                }
-            }
-            if (cnt >= 2) {
-                r_cnt++;
-            }
-        }
+        int r_cnt = countLyingPlaces(newArray, n);
+        int c_cnt = countLyingPlaces(transpose(newArray), n);
 
-//        세로로 카운트하기
-        int c_cnt = 0;
-        for (int j = 0; j < n; j++) {
-            int cnt = 0;
-            for (int k = 0; k < n; k++) {
-                if (newArray[k][j] == '.') {
-                    cnt++;
-                } else {
-                    if (cnt >= 2) {
-                        c_cnt++;
-                    }
-                    cnt = 0;
-                }
-            }
-            if (cnt >= 2) {
-                c_cnt++;
-            }
-        }
         System.out.println(r_cnt + " " + c_cnt);
+
+    }
+
+    private static int countLyingPlaces(char[][] arr, int n) {
+        int cnt = 0;
+        for (int i = 0; i < n; i++) {
+            int spaceCnt = 0;
+            for (int j = 0; j < n; j++) {
+                if (arr[i][j] == '.') {
+                    spaceCnt++;
+                } else {
+                    if (spaceCnt >= 2) {
+                        cnt++;
+                    }
+                    spaceCnt = 0;
+                }
+            }
+            if (spaceCnt >= 2) {
+                cnt++;
+            }
+        }
+        return cnt;
+    }
+
+    private static char[][] transpose(char[][] arr) {
+        int n = arr.length;
+        char[][] transposed = new char[n][n];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                transposed[i][j] = arr[j][i];
+            }
+        }
+        return transposed;
     }
 }
