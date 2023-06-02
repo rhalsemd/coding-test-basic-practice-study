@@ -24,3 +24,8 @@
 - 20230601
 1. 백준 - 폴리오미노 1343
     https://www.acmicpc.net/problem/1343
+
+- 20230602
+1. 백준 - 타일 장식물 13301
+    https://www.acmicpc.net/problem/13301
+
