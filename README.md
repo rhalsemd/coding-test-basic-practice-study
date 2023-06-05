@@ -33,3 +33,7 @@
 1. 백준 - Base Conversion 11576
     https://www.acmicpc.net/problem/11576
 
+- 20230606
+1. 백준 - 수들의 합 5 2048
+    https://www.acmicpc.net/problem/2048
+
