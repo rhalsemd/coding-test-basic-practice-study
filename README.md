@@ -37,3 +37,7 @@
 1. 백준 - 수들의 합 5 2048
     https://www.acmicpc.net/problem/2048
 
+- 20230607
+1. 백준 - 성적 통계 5800
+    https://www.acmicpc.net/problem/5800
+
