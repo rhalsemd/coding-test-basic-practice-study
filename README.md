@@ -41,3 +41,6 @@
 1. 백준 - 성적 통계 5800
     https://www.acmicpc.net/problem/5800
 
+- 20230607
+1. 백준 - 종이자르기 2628
+    https://www.acmicpc.net/problem/2628
