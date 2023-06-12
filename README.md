@@ -48,3 +48,7 @@
 - 20230609
 1. 백준 - 3의 배수 1769
     https://www.acmicpc.net/problem/1769
+
+- 20230612
+1. 백준 - UCPC는 무엇의 약자일까? 15904
+    https://www.acmicpc.net/problem/15904
