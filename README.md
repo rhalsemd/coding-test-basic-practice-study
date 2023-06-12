@@ -52,3 +52,7 @@
 - 20230612
 1. 백준 - UCPC는 무엇의 약자일까? 15904
     https://www.acmicpc.net/problem/15904
+
+- 20230613
+1. 백준 - 로또 6603
+    https://www.acmicpc.net/problem/15904
