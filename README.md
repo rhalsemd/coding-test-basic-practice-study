@@ -55,4 +55,8 @@
 
 - 20230613
 1. 백준 - 로또 6603
-    https://www.acmicpc.net/problem/15904
+    https://www.acmicpc.net/problem/6603
+
+- 20230614
+1. 백준 - 나이트의 이동 7562
+    https://www.acmicpc.net/problem/7562    
