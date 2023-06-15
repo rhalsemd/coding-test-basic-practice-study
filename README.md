@@ -59,4 +59,8 @@
 
 - 20230614
 1. 백준 - 나이트의 이동 7562
-    https://www.acmicpc.net/problem/7562    
+    https://www.acmicpc.net/problem/7562
+    
+- 20230615
+1. 백준 - 영역 구하기 2583
+    https://www.acmicpc.net/problem/2583
