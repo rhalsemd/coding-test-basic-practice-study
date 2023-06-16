@@ -64,3 +64,7 @@
 - 20230615
 1. 백준 - 영역 구하기 2583
     https://www.acmicpc.net/problem/2583
+
+- 20230616
+1. 백준 - A → B 16953
+    https://www.acmicpc.net/problem/16953
