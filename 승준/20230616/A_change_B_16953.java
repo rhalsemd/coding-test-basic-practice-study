@@ -10,7 +10,7 @@ public class A_change_B_16953 {
         int start = Integer.parseInt(st.nextToken());
         int end = Integer.parseInt(st.nextToken());
 
-        bfs(start, end, 0);
+        dfs(start, end, 0);
 
         if (minCnt == Integer.MAX_VALUE) {
             System.out.println(-1);
@@ -19,7 +19,7 @@ public class A_change_B_16953 {
         }
     }
 
-    private static void bfs(long start, long end, int count) {
+    private static void dfs(long start, long end, int count) {
         if (start == end) {
             minCnt = Math.min(minCnt, count);
             return;
@@ -29,7 +29,7 @@ public class A_change_B_16953 {
             return;
         }
 
-        bfs(start * 2, end, count + 1);
-        bfs(start * 10 + 1, end, count + 1);
+        dfs(start * 2, end, count + 1);
+        dfs(start * 10 + 1, end, count + 1);
     }
 }
