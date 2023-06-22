@@ -1,41 +1,28 @@
 const readline = require("readline");
+let n, m;
+const maze = [];
+let dist;
+const input = [];
 
-const rl = readline.createInterface({
-  input: process.stdin,
-  output: process.stdout,
-});
-
-const dx = [-1, 1, 0, 0];
-const dy = [0, 0, -1, 1];
-
-function main() {
-  let n, m;
-  const maze = [];
-  let dist;
-
-  rl.on("line", (line) => {
-    if (!n && !m) {
-      [n, m] = line.split(" ").map(Number);
-      for (let i = 0; i < n; i++) {
-        maze.push([]);
-      }
-      dist = new Array(n).fill(null).map(() => new Array(m).fill(-1));
-    } else {
-      const row = line.split("").map(Number);
-      maze.push(row);
+readline
+  .createInterface(process.stdin, process.stdout)
+  .on("line", (line) => {
+    input.push(line);
+  })
+  .on("close", () => {
+    const [nmLine, ...mazeLines] = input;
+    [n, m] = nmLine.split(" ").map(Number);
+    dist = new Array(n).fill(null).map(() => new Array(m).fill(-1));
+    for (let i = 0; i < n; i++) {
+      maze.push(mazeLines[i].split("").map(Number));
     }
-
-    if (maze.length === n) {
-      rl.close();
-    }
-  });
-
-  rl.on("close", () => {
     const result = solveMaze(n, m, maze, dist);
     console.log(result);
     process.exit();
   });
-}
+
+const dx = [-1, 1, 0, 0];
+const dy = [0, 0, -1, 1];
 
 function solveMaze(n, m, maze, dist) {
   const queue = [];
@@ -65,5 +52,3 @@ function solveMaze(n, m, maze, dist) {
 
   return dist[n - 1][m - 1];
 }
-
-main();
