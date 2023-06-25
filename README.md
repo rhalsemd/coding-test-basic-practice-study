@@ -68,3 +68,7 @@
 - 20230616
 1. 백준 - A → B 16953
     https://www.acmicpc.net/problem/16953
+
+- 20230626
+1. 백준 - 용액 2467
+    https://www.acmicpc.net/problem/2467
