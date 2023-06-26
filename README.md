@@ -72,3 +72,7 @@
 - 20230626
 1. 백준 - 용액 2467
     https://www.acmicpc.net/problem/2467
+
+- 20230627
+1. 백준 - 이진 검색 트리
+    https://www.acmicpc.net/problem/5639
