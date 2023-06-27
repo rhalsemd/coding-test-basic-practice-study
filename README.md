@@ -74,5 +74,9 @@
     https://www.acmicpc.net/problem/2467
 
 - 20230627
-1. 백준 - 이진 검색 트리
+1. 백준 - 이진 검색 트리 5639
     https://www.acmicpc.net/problem/5639
+
+- 20230628
+1. 백준 - 보물섬 2589
+   https://www.acmicpc.net/problem/2589
