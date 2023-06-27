@@ -4,11 +4,16 @@ import java.util.*;
 public class solution_2467 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-
         int n = Integer.parseInt(br.readLine());
-        int[] solution = Arrays.stream(br.readLine().split(" ")).mapToInt(item -> Integer.parseInt(item)).toArray();
 
-        Arrays.sort(solution);
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        int[] solution = new int[n];
+        for (int i = 0; i < n; i++) {
+            solution[i] = Integer.parseInt(st.nextToken());
+        }
+
+        // 한줄에 입력 받기(이건 찾아본거)
+        // int[] solution = Arrays.stream(br.readLine().split(" ")).mapToInt(item -> Integer.parseInt(item)).toArray();
 
         int left = 0;
         int right = n - 1;
