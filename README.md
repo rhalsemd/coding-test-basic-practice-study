@@ -80,3 +80,7 @@
 - 20230628
 1. 백준 - 보물섬 2589
    https://www.acmicpc.net/problem/2589
+
+- 20230629
+1. 백준 - 트리 1068
+  https://www.acmicpc.net/problem/1068
