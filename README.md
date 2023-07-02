@@ -90,5 +90,5 @@
  https://www.acmicpc.net/problem/14226
 
 - 20230630
-1. 백준 - 이모티콘 14226
+1. 백준 - 강의실 배정 11000
 https://www.acmicpc.net/problem/11000
