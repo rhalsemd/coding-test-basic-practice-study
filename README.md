@@ -88,3 +88,7 @@
 - 20230630
 1. 백준 - 이모티콘 14226
  https://www.acmicpc.net/problem/14226
+
+- 20230630
+1. 백준 - 이모티콘 14226
+https://www.acmicpc.net/problem/11000
