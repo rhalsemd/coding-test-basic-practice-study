@@ -92,3 +92,7 @@
 - 20230703
 1. 백준 - 강의실 배정 11000
 https://www.acmicpc.net/problem/11000
+
+- 20230704
+1. 백준 - 빗물 14719
+ https://www.acmicpc.net/problem/14719
