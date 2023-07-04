@@ -96,3 +96,7 @@ https://www.acmicpc.net/problem/11000
 - 20230704
 1. 백준 - 빗물 14719
  https://www.acmicpc.net/problem/14719
+
+- 20230705
+1. 백준 - 숫자고르기 2668
+ https://www.acmicpc.net/problem/2668
