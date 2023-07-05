@@ -100,3 +100,7 @@ https://www.acmicpc.net/problem/11000
 - 20230705
 1. 백준 - 숫자고르기 2668
  https://www.acmicpc.net/problem/2668
+
+- 20230706
+1. 백준 - 퇴사 2 15486
+ https://www.acmicpc.net/problem/15486
