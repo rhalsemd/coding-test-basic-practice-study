@@ -105,6 +105,6 @@ https://www.acmicpc.net/problem/11000
 1. 백준 - 퇴사 2 15486
  https://www.acmicpc.net/problem/15486
 
-- 20230706
+- 20230707
 1. 백준 - 감소하는 수 1038
  https://www.acmicpc.net/problem/1038
