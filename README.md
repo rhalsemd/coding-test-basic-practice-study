@@ -108,3 +108,7 @@ https://www.acmicpc.net/problem/11000
 - 20230707
 1. 백준 - 감소하는 수 1038
  https://www.acmicpc.net/problem/1038
+
+- 20230710
+1. 백준 - 선긋기 2170
+https://www.acmicpc.net/problem/2170
