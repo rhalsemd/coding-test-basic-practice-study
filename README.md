@@ -112,3 +112,7 @@ https://www.acmicpc.net/problem/11000
 - 20230710
 1. 백준 - 선긋기 2170
 https://www.acmicpc.net/problem/2170
+
+- 20230711
+1. 백준 - 컨베이어 벨트 위의 로봇 20055
+https://www.acmicpc.net/problem/20055
