@@ -116,3 +116,7 @@ https://www.acmicpc.net/problem/2170
 - 20230711
 1. 백준 - 컨베이어 벨트 위의 로봇 20055
 https://www.acmicpc.net/problem/20055
+
+- 20230712
+1. 백준 - 물통 2251
+https://www.acmicpc.net/problem/2251
