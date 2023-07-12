@@ -120,3 +120,7 @@ https://www.acmicpc.net/problem/20055
 - 20230712
 1. 백준 - 물통 2251
 https://www.acmicpc.net/problem/2251
+
+- 20230713
+1. 백준 - 경쟁적 전염 18405
+https://www.acmicpc.net/problem/18405
