@@ -124,3 +124,7 @@ https://www.acmicpc.net/problem/2251
 - 20230713
 1. 백준 - 경쟁적 전염 18405
 https://www.acmicpc.net/problem/18405
+
+- 20230714
+1. 백준 - 옥상 정원 꾸미기
+https://www.acmicpc.net/problem/6198
